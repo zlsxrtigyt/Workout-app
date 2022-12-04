@@ -41,7 +41,7 @@
                     android:id="@+id/superman"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Superman" />
+                    android:text="Cobra" />
             </TableRow>
 
             <TableRow
@@ -52,7 +52,7 @@
                     android:id="@+id/cobra"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Cobra" />
+                    android:text="Superman" />
             </TableRow>
 
             <TableRow
@@ -82,7 +82,7 @@
                     android:id="@+id/kamel"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Kamel" />
+                    android:text="Schieb-plank" />
             </TableRow>
 
             <TableRow
@@ -93,7 +93,7 @@
                     android:id="@+id/schieb_plank"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="schieb-plank" />
+                    android:text="kamel" />
             </TableRow>
         </TableLayout>
 
