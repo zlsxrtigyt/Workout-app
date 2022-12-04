@@ -40,7 +40,7 @@ public class Workout_runner extends AppCompatActivity {
 
         Intent intent = getIntent();
         mode = intent.getStringExtra(fragment_beine.EXTRA_MESSAGE_mode);
-        min = intent.getIntExtra(fragment_beine.EXTRA_MESSAGE_min, 5);
+        min = Integer.parseInt(intent.getStringExtra(fragment_beine.EXTRA_MESSAGE_min));
 
         ms = getms();
         args_str = intent.getStringExtra(fragment_beine.EXTRA_MESSAGE_args);

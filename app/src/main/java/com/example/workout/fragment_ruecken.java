@@ -59,10 +59,13 @@ public class fragment_ruecken extends Fragment {
 
             Intent intent = new Intent(getActivity(), Workout_runner.class);
             intent.putExtra(EXTRA_MESSAGE_mode, "ruecken");
-            if(min.getText().toString().equals("")) {
+
+            String min_string = min.getText().toString();
+
+            if(min_string.equals("")) {
                 intent.putExtra(EXTRA_MESSAGE_min, "5");
             } else {
-                intent.putExtra(EXTRA_MESSAGE_min, min.getText().toString());
+                intent.putExtra(EXTRA_MESSAGE_min, min_string);
             }
             intent.putExtra(EXTRA_MESSAGE_args, arg);
 
